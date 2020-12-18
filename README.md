@@ -80,6 +80,6 @@ dataframe1 = pd.read_csv(r"Path of the prediction file with format .txt ".format
 dataframe1.to_csv(r"Path to store the converted .csv file ".format(n),index = None)
 
 
-Contact:	
+Contact:	<br>
 Atharva Bankar (bankaratharva@gmail.com) <br>
 Aryan Gandhi (coursearyan@gmail.com)
