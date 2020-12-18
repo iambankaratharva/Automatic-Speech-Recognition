@@ -1,10 +1,13 @@
 # Automatic-Speech-Recognition
 Speaker Independent Automatic Speech Recognition for continuous audio.
 
+## Documentation for End User
 Pre-requirements – 
-Python 3.7 is to be installed for the execution of the model.
+Python 3.6 and above required for the execution of the model.
+
 Weights should be downloaded which are provided with the documentation.
-Python Libraries required: pip3 install lib_name
+
+### Python Libraries required: pip3 install lib_name
 pandas
 numpy
 librosa
@@ -52,7 +55,7 @@ f=open(r'Path of the file where output will be stored' + '{0}'.format(n)+'.txt',
 def match_target_amplitude(aChunk, target_dBFS):
 aChunk.apply_gain(change_in_dBFS)
 
-8.	For the model to convert the given audio file into .wav format the following lines of code should be executed. For the AudioSegment() function to be executed the user needs to download FFMPEG onto his system. Below is the link to git clone it.
+8.	For the model to convert the given audio file into .wav format the following lines of code should be executed. For the AudioSegment() function to be executed the user needs to download FFMPEG onto his system. Below is the link to git clone it. (No need of FFMPEG for Google Colab)
 https://ffmpeg.org/download.html#build-windows
 
 9.	After cloning it onto the system the user needs to move the ffmpeg.exe and ffprobe.exe files to some other file as they are necessary for conversion of audio files.
@@ -78,12 +81,6 @@ dataframe1 = pd.read_csv(r"Path of the prediction file with format .txt ".format
 dataframe1.to_csv(r"Path to store the converted .csv file ".format(n),index = None)
 
 
-Contact:
-Atharva Bankar (bankaratharva@gmail.com)
+Contact:	
+Atharva Bankar (bankaratharva@gmail.com) <br>
 Aryan Gandhi (coursearyan@gmail.com)
-
-
-
-
-	
-
