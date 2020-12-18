@@ -8,23 +8,7 @@ Python 3.6 and above required for the execution of the model.
 Weights should be downloaded which are provided with the documentation.
 
 ### Python Libraries required: pip3 install lib_name
-pandas
-numpy
-librosa
-matplotlib
-IPython
-os
-sys
-scipy
-sklearn
-time
-tensorflow   -   in progress
-keras
-pydub
-sounddevice
-soundfile
-pysndfx
-python_speech_features
+pandas, numpy, librosa, matplotlib, IPython, os, sys, scipy, sklearn, time, tensorflow, keras, pydub, sounddevice, soundfile, pysndfx, python_speech_features
 
 The all_labels.npy file should be downloaded.
 
