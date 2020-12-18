@@ -55,8 +55,7 @@ f=open(r'Path of the file where output will be stored' + '{0}'.format(n)+'.txt',
 def match_target_amplitude(aChunk, target_dBFS):
 aChunk.apply_gain(change_in_dBFS)
 
-8.	For the model to convert the given audio file into .wav format the following lines of code should be executed. For the AudioSegment() function to be executed the user needs to download FFMPEG onto his system. Below is the link to git clone it. (No need of FFMPEG for Google Colab)
-https://ffmpeg.org/download.html#build-windows
+8.	For the model to convert the given audio file into .wav format the following lines of code should be executed. For the AudioSegment() function to be executed the user needs to download FFMPEG onto his system. Below is the link to git clone it. https://ffmpeg.org/download.html#build-windows (No need of FFMPEG for Google Colab)
 
 9.	After cloning it onto the system the user needs to move the ffmpeg.exe and ffprobe.exe files to some other file as they are necessary for conversion of audio files.
 
