@@ -27,7 +27,8 @@ pysndfx
 python_speech_features
 
 The all_labels.npy file should be downloaded.
-The user should follow the following steps - 
+
+### The user should follow the following steps - 
 1.	The user should begin with the basic step of importing all the required libraries and downloading all the dependencies which are specified in the beginning of the code.
 
 2.	Once the weights are downloaded onto the system where the model is to be executed, it should be loaded into the model with the following lines of code.
@@ -80,6 +81,6 @@ dataframe1 = pd.read_csv(r"Path of the prediction file with format .txt ".format
 dataframe1.to_csv(r"Path to store the converted .csv file ".format(n),index = None)
 
 
-Contact:	<br>
+### Contact:	<br>
 Atharva Bankar (bankaratharva@gmail.com) <br>
 Aryan Gandhi (coursearyan@gmail.com)
