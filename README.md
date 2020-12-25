@@ -63,8 +63,3 @@ print(filepath)
 14.	Lastly the .txt file where the predictions exist is then converted to a .csv file.
 dataframe1 = pd.read_csv(r"Path of the prediction file with format .txt ".format(n),header=None) 
 dataframe1.to_csv(r"Path to store the converted .csv file ".format(n),index = None)
-
-
-### Contact:	<br>
-Atharva Bankar (bankaratharva@gmail.com) <br>
-Aryan Gandhi (coursearyan@gmail.com)
